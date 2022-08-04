@@ -10,7 +10,7 @@ public class Ecomm {
 	// 1. same name
 	// 2. different number of the method parameters
 	// 3. different types of the method parameters
-	// 4. the seqences of the parameters should also be different.
+	// 4. the sequences of the parameters should also be different.
 	
 	// Why it is imp?? Answer: user friendly design
 	// ease to read the code
