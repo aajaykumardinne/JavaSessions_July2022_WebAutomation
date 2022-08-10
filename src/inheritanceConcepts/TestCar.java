@@ -3,6 +3,11 @@ package inheritanceConcepts;
 public class TestCar {
 
 	public static void main(String[] args) {
+	
+		final int i = 10;  // constant data
+
+		
+		
 		
 		BMW b = new BMW();
 		
@@ -13,13 +18,14 @@ public class TestCar {
 		
 		b.autoParking(); // individual method
 		b.engine();  // inherited method
-
+		System.out.println(b.speed);
 		
 		Car c = new Car();
 		c.start();     // individual method
 		c.stop();      // individual method
 		c.refuel();    // individual method
 		c.engine();    // inherited method
+		
 		
 		
 		// 1. Top/Up-casting : 
@@ -43,6 +49,8 @@ public class TestCar {
 		
 		// 2. Bottom/Down casting
 		// parent class object can be referred by child class reference variable
+		// allowed at the compile time 
+		// throws ClassCastException at the run time
 		
 //		BMW B1 = (BMW)new Car(); // ClassCastException
 //		B1.start();

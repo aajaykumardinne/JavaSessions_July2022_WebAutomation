@@ -2,6 +2,7 @@ package inheritanceConcepts;
 
 public class BMW extends Car{
 	
+	int speed = 200;
 	// Method overriding : PolyMorphism (Run time/dynamic)
 	// When you have a method in the parent and same the method in the class:
 	// 1. with the same method name
@@ -29,6 +30,10 @@ public class BMW extends Car{
 	
 	public void autoParking() {
 		System.out.println("BMW - auto parking");
+	}
+	
+	public static void billing() {
+		System.out.println("BMW -- billing");
 	}
 
 }

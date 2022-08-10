@@ -168,7 +168,7 @@ public class LoopsConcept {
 		
 		System.out.println("--------");
 		
-		// do-while	
+		// 3. do-while	
 		
 		// 1 to 10
 		

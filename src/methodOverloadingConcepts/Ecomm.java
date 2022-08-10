@@ -7,9 +7,9 @@ public class Ecomm {
 	// MethodOverloading:compile/static Time Poly(many) + Poly(forms)
 	// Return type does not matter in Method overloading
 	// Within the same class: when you have methods
-	// 1. same name
+	// 1. with the same name
 	// 2. different number of the method parameters
-	// 3. different types of the method parameters
+	// 3. different data types of the method parameters
 	// 4. the sequences of the parameters should also be different.
 	
 	// Why it is imp?? Answer: user friendly design
