@@ -27,7 +27,7 @@ public class Car extends Vehicle{
 	// can not override the static methods
 	
 	//Car class methods
-	public void start() {
+	public  void start() {
 		System.out.println("car - start");
 	}
 	

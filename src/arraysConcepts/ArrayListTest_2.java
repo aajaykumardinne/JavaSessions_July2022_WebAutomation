@@ -85,7 +85,7 @@ public class ArrayListTest_2 {
 		// print all the values in the static array with out using any loop
 		System.out.println(Arrays.toString(c1));
 
-		// toString() method is applicable to all the numeric data types
+		// toString() method is applicable to all the primitive data types
 
 		System.out.println("----");
 		// clear the values in the arraylist

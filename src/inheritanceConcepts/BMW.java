@@ -16,8 +16,6 @@ public class BMW extends Car{
 	
 	// can not override the private methods .
 	// can not inherit the private methods
-	
-	// the scope of the private vars and methods is within the class only
 	@Override
 	public void start() {
 		System.out.println("BMW - start");

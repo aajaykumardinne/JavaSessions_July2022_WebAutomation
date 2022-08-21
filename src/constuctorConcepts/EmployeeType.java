@@ -34,6 +34,8 @@ public class EmployeeType {
 		System.out.println("two parameters: " + a + " " + x);
 	}
 
+	
+	// constructor overriding is not possible in java
 	public static void main(String[] args) {
 
 		EmployeeType e1 = new EmployeeType(20, "macbook air m1");
