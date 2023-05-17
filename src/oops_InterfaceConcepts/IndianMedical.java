@@ -10,3 +10,4 @@ public interface IndianMedical {
 	public void emergencyServices();
 
 }
+

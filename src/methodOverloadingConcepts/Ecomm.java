@@ -4,10 +4,13 @@ public class Ecomm {
 
 	// duplicate methods are not allowed inside a same class.
 
-	// MethodOverloading:compile/static Time Poly(many) + Poly(forms)
+	// MethodOverloading:compile/static Time Poly(many) + Morphism(forms)
+	
 	// Return type does not matter in Method overloading
+	
+	//Definition
 	// Within the same class: when you have methods
-	// 1. with the same name
+	// 1. with the same method name
 	// 2. different number of the method parameters
 	// 3. different data types of the method parameters
 	// 4. the sequences of the parameters should also be different.

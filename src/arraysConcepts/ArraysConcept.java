@@ -11,7 +11,7 @@ public class ArraysConcept {
 		
 		// 1. int array
 		// ways of creating the static array
-		// a. using the new keyword . new ke	yword is used to allocate the memory of the array
+		// a. using the new keyword . new keyword is used to allocate the memory of the array
 		// b. Array Iterals 
 		
 		
@@ -27,7 +27,8 @@ public class ArraysConcept {
 		i[2] = 30;
 		i[3] = 40;
 		
-//		System.out.println(i[4]); // ArrayIndexOutOfBoundsException
+//		System.out.println(i[4]); 
+// ArrayIndexOutOfBoundsException is thrown at the run time
 		
 		System.out.println(i[1]);
 		System.out.println(i[2]);
@@ -77,7 +78,7 @@ public class ArraysConcept {
 		d[0] = 12.33;
 		d[1] = 18.25;
 		
-		System.out.println(d[0]);
+		System.out.println(d[1]);
 		
 		System.out.println("-----");
 		
@@ -114,12 +115,31 @@ public class ArraysConcept {
 		// major limitation is size is fixed
 		
 //		practical examples of static array
-		// months size
+		// months in a year
 		// days in a week
 		// 6 balls in a over
 		// menu items in a ecommerce application
 		// flight ticket booking
 		// book my show to book the movie tickets
+		
+		
+		
+		byte b[] = new byte[6];
+		
+		short b1[] = new short[8];
+		
+		int []h9 = new int[99];
+		
+		long h[] = new long[5];
+		
+		boolean b10[] = new boolean[90];
+		
+		char c2[] = new char[5];
+		
+		float b5[] = new float[9];
+		
+		double d5[] = new double[50];
+		
 		
 		
 		

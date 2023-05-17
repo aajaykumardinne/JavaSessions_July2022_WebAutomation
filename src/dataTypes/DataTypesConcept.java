@@ -9,6 +9,7 @@ public class DataTypesConcept {
 
 		// data types:
 		// indicates the type of the data
+		
 		// strict data type
 		// 1.primitive data types: can be used directly inside the memory
 		// no need to create the object
